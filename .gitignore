@@ -1,0 +1,5 @@
+.ipynb_checkpoints
+__pycache__
+satellite_model/mlruns/
+satellite_model/artifacts/
+
