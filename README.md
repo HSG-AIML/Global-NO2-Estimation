@@ -22,6 +22,7 @@ The remote sensing data for training the network has to be downloaded separately
 To train the model yourself, download data from zenodo and store it in a data directory with subdirectories called `sentinel-2` and `sentinel-5p`. These should then contain the one directory for each ground station with the corresponding files.
 E.g.:
 
+```
 - eea
   - sentinel-2
      - GIB_Station_GB0050A
@@ -35,6 +36,7 @@ E.g.:
      - GIB_Station_GB0051A
          - l3_mean_europe_2018_2020_005dg.netcdf
      - ...
+```
 
 Training can be started with with the `satellite_model/training.py` script. This script logs data to [mlflow](https://mlflow.org). Hyperparameters can be adjusted via command line arguments.
 
