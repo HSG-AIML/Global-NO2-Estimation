@@ -1,5 +1,8 @@
-.ipynb_checkpoints
 __pycache__
+local_model/.ipynb_checkpoints
+osm_model/.ipynb_checkpoints
+satellite_model/.ipynb_checkpoints
 satellite_model/mlruns/
 satellite_model/artifacts/
+satellite_model/results/
 
