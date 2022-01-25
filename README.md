@@ -38,5 +38,4 @@ E.g.:
 
 Training can be started with with the `satellite_model/training.py` script. This script logs data to [mlflow](https://mlflow.org). Hyperparameters can be adjusted via command line arguments.
 
-Example: To start training for 20 epochs with the remote sensing data located in `/home/user/rs_data/`, call `training.py --epochs=20 --datadir=/home/user/rs_data` from the `satellite_model` directory.
-         - l3_mean_europe_2018_2020_005dg.netcdf
+Example: To start training for 20 epochs with the remote sensing data located in `/home/user/rs_data/`, call `python training.py --epochs=20 --datadir=/home/user/rs_data` from the `satellite_model` directory.
