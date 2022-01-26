@@ -4,11 +4,11 @@ This repository provides the code for a forthcoming paper on the estimation of s
 
 ## Local Model
 The local model (`local_model` directory) estimates surface NO2 for locations of EEA air quality ground stations based on station metadata with XGBoost.
-There are two files for finding a good hyperparameter configuration and evaluation across multiple seeds, respectively.
+There are two noteboooks for finding a good hyperparameter configuration and evaluation across multiple seeds, respectively.
 
 ## OSM Model
 This model (`osm_model` directory) is based on land cover statistics derived from the [OpenStreetMap](https://www.openstreetmap.org/) project and estimates NO2 with XGBoost.
-There are two files for finding a good hyperparameter configuration and evaluation across multiple seeds, respectively.
+There are two notebooks for finding a good hyperparameter configuration and evaluation across multiple seeds, respectively.
 
 ## Satellite Model
 The satellite model (`satellite_model` directory) uses remote sensing data (Sentinel-1 and Sentinel-5P) to expand high-resolution NO2 estimation to a global scale.
@@ -40,4 +40,4 @@ E.g.:
 
 Training can be started with with the `satellite_model/training.py` script. This script logs data to [mlflow](https://mlflow.org). Hyperparameters can be adjusted via command line arguments.
 
-Example: To start training for 20 epochs with the remote sensing data located in `/home/user/rs_data/`, call `python training.py --epochs=20 --datadir=/home/user/rs_data` from the `satellite_model` directory.
+Example: To start training for 20 epochs with the remote sensing data located in `/home/user/eea/`, call `python training.py --epochs=20 --datadir=/home/user/eea` from the `satellite_model` directory.
