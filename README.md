@@ -13,7 +13,7 @@ There are two notebooks for finding a good hyperparameter configuration and eval
 ## Satellite Model
 The satellite model (`satellite_model` directory) uses remote sensing data (Sentinel-1 and Sentinel-5P) to expand high-resolution NO2 estimation to a global scale.
 The model is an artificial neural network with two input streams for the different data modalities, trained against ground-stations measurements in Europe.
-The remote sensing data for training the network has to be downloaded separately from [Zenodo](https://zenodo.org).
+The remote sensing data for training the network has to be downloaded separately from [Zenodo](https://zenodo.org/record/5764262#.YfJiPS1XYUs).
 
 <p align="center">
   <img src="data_figures/figure1_5.png" />
