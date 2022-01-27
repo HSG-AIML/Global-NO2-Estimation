@@ -1,6 +1,6 @@
 # Towards Global Estimation of Ground-Level NO2 Pollution with Deep Learning and Remote Sensing
 
-This repository provides the code for a forthcoming paper on the estimation of surface-level NO2 concentrations from various data sources. 
+This repository provides the code for a paper (under review) on the estimation of surface-level NO2 concentrations from various data sources. 
 
 ## Local Model
 The local model (`local_model` directory) estimates surface NO2 for locations of EEA air quality ground stations based on station metadata with XGBoost.
