@@ -1,6 +1,6 @@
 # Towards Global Estimation of Ground-Level NO2 Pollution with Deep Learning and Remote Sensing
 
-This repository provides the code for a paper (under review) on the estimation of surface-level NO2 concentrations from various data sources. 
+This repository provides the code for a [paper](https://ieeexplore.ieee.org/abstract/document/9738606) on the estimation of surface-level NO2 concentrations from various data sources.
 
 ## Local Model
 The local model (`local_model` directory) estimates surface NO2 for locations of EEA air quality ground stations based on station metadata with XGBoost.
@@ -45,3 +45,6 @@ Training can be started with with the `satellite_model/training.py` script. This
 ```
 python training.py --epochs=20 --datadir=/home/user/eea
 ```
+## Reference
+If you would like to cite our work, please use the following reference:
+* L. Scheibenreif, M. Mommert and D. Borth, "Toward Global Estimation of Ground-Level NO2 Pollution With Deep Learning and Remote Sensing," in IEEE Transactions on Geoscience and Remote Sensing, vol. 60, pp. 1-14, 2022, Art no. 4705914, doi: 10.1109/TGRS.2022.3160827.
