@@ -48,3 +48,15 @@ python training.py --epochs=20 --datadir=/home/user/eea
 ## Reference
 If you would like to cite our work, please use the following reference:
 * L. Scheibenreif, M. Mommert and D. Borth, "Toward Global Estimation of Ground-Level NO2 Pollution With Deep Learning and Remote Sensing," in IEEE Transactions on Geoscience and Remote Sensing, vol. 60, pp. 1-14, 2022, Art no. 4705914, doi: 10.1109/TGRS.2022.3160827.
+
+```
+@article{scheibenreif2022toward,
+  title={Toward global estimation of ground-level no 2 pollution with deep learning and remote sensing},
+  author={Scheibenreif, Linus and Mommert, Michael and Borth, Damian},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  volume={60},
+  pages={1--14},
+  year={2022},
+  publisher={IEEE}
+}
+```
